@@ -1,0 +1,70 @@
+:root{--purple:#7da9d8;--purple-dark:#5f8fbe;--soft:#f6f9fc}
+body{font-size:17px;font-weight:500}
+h1,h2,h3,strong,.button,.nav a,.feature-card a,.eyebrow,.price-card li,.faq summary{font-weight:800}
+.hero-text,.section-heading p,.feature-card p,.step p,.center-heading p,.cta-inner p,.faq details p{font-weight:500}
+.site-header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96)}
+.logo span{display:none}
+.logo{font-size:22px}
+.nav{gap:24px}
+.nav a{font-size:14px}
+.button{border-radius:5px;box-shadow:none}
+.hero{display:block;min-height:650px;padding-top:105px;padding-bottom:120px}
+.hero h1{max-width:1080px;font-size:74px;line-height:1.02;letter-spacing:-.065em;font-weight:800}
+.hero-text{max-width:1080px;font-size:18px}
+.hero-visual{display:none}
+.hero-actions{margin-top:34px}
+.hero-actions .text-link,.trust-row,.logo-strip{display:none}
+.section-heading{align-items:start}
+.section h2,.center-heading h2{font-weight:800;line-height:1.05}
+.feature-card{border-radius:5px;box-shadow:none}
+.feature-card a{font-weight:800}
+.how-section,.pricing-section{background:#fbfcfe}
+.steps{gap:22px}
+.step{border:1px solid #e4eaf0;border-radius:12px;padding:30px 28px;background:#fff;box-shadow:0 8px 24px rgba(37,58,78,.05)}
+.step span{position:static;display:grid;place-items:center;width:34px;height:34px;margin-bottom:20px;border-radius:50%;background:#edf6fd;color:var(--purple);font-weight:800}
+.quote-card blockquote{font-weight:700}
+.price-card{border-radius:5px;box-shadow:none}
+.price-card.popular{box-shadow:0 8px 26px rgba(94,143,190,.13)}
+.pricing-grid{max-width:1000px;margin:0 auto}
+.price-card{padding:24px;min-height:0}
+.price-card.popular{padding:23px}
+.price-card p{min-height:38px}
+.price-card>strong{margin:15px 0;font-size:22px}
+.price-card ul{padding-top:15px;line-height:2.15}
+.price-card .button{padding:11px 16px}
+.cta-section{border-top:1px solid #e3eef7;border-bottom:1px solid #e3eef7}
+.faq details{padding:25px 0}
+.footer{background:#20252d}
+@media(max-width:800px){.site-header{height:auto}.nav{display:flex;position:static;flex-direction:row;align-items:center;overflow-x:auto;white-space:nowrap;padding:0 24px 14px;gap:24px;border:0}.nav .button{display:none}.hero{padding-top:72px}.hero h1{font-size:54px}.hero-visual{display:none}.section-heading{display:block}.section-heading p{margin-top:24px}.feature-card{grid-template-columns:1fr;row-gap:8px}.steps{gap:28px}.step{padding-top:18px}}
+@media(max-width:480px){.nav{padding-left:18px;padding-right:18px;gap:20px}.nav a{font-size:13px}.hero{padding-top:58px}.hero h1{line-height:1.04}.hero-text{font-size:17px}.hero-actions{align-items:stretch}.hero-actions .button{width:100%}.section-heading p{font-size:16px}}
+.container{max-width:1200px}
+.hero{min-height:650px;gap:70px}
+.hero h1{font-size:62px}
+.hero-text{font-size:18px;line-height:1.65}
+.section{padding-top:135px;padding-bottom:135px}
+.section h2,.center-heading h2{font-size:44px}
+.feature-grid{display:block}
+.feature-card{display:grid;grid-template-columns:1fr 1.6fr;column-gap:60px;align-items:start;min-height:0;padding:27px 0;border:0;border-top:1px solid var(--line);border-radius:0}
+.feature-card h3{font-size:19px}
+.feature-card p,.section-heading p,.step p,.center-heading p{font-size:15px;line-height:1.7}
+.feature-card a,.mini-kanban{display:none}
+.feature-card.featured{background:transparent;border-color:var(--line)}
+.steps{margin-top:75px}
+.step h3{font-size:19px}
+.quote-card blockquote{font-size:27px}
+.stats strong{font-size:34px}
+.price-card{padding:32px}
+.price-card.popular{padding:31px}
+.price-card h3{font-size:21px}
+.price-card p,.price-card ul{font-size:14px}
+.cta-inner h2{font-size:46px}
+.cta-inner p{font-size:16px;line-height:1.7}
+.faq summary{font-size:16px}
+.faq details p{font-size:15px;line-height:1.7}
+@media(max-width:800px){.hero h1{font-size:50px}.section h2,.center-heading h2{font-size:38px}.section{padding-top:95px;padding-bottom:95px}.feature-card{padding:30px}.cta-inner h2{font-size:40px}}
+@media(max-width:480px){body{font-size:16px}.hero h1{font-size:43px}.section h2,.center-heading h2{font-size:34px}.section{padding-top:78px;padding-bottom:78px}}
+.icon{display:none}
+.feature-card{padding-top:34px}
+.feature-card.featured{background:#f3f8fd;border-color:#e1edf7}
+.glow{background:#edf6fd}
+.cta-section{background:#edf6fd}
